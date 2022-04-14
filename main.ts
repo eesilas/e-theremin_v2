@@ -2,7 +2,7 @@ input.onButtonPressed(Button.B, function () {
     music.stopAllSounds()
 })
 let distance = 0
-music.setVolume(128)
+music.setVolume(127)
 basic.forever(function () {
     distance = sonar.ping(
     DigitalPin.P1,
